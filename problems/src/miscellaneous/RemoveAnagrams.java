@@ -31,7 +31,7 @@ public class RemoveAnagrams {
 
     public static void main(String[] args) {
         RemoveAnagrams removeAnagrams = new RemoveAnagrams();
-        String[] arr = {"Scaler", "Lacers", "Accdemy", "Academy"};
+        String[] arr = {"Scaler", "Lacers", "Accdemy", "Academy", "Slack"};
         String[] ans = removeAnagrams.removeAnagrams(arr);
         System.out.println(Arrays.toString(ans));
     }
